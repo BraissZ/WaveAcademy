@@ -1,0 +1,325 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: #FFFFFF;
+}
+.cabecalho{
+    font-family: 'Inter', 'sans-serif';
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 5px solid #000000;
+}
+.cabecalho-logo{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.titulo-logo{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 48px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.barra-pesquisa{
+    
+    width: 505px;
+    height: 46px;
+    background: #00A7E1;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+}
+.search-icon{
+    width: 28px;
+    height: 28px;
+    padding: 2px;
+}
+.search-text{
+    color: #FFFFFF;
+    background: none;
+    border: 0;
+    outline: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    
+}
+.botoes{
+    display: flex;
+    gap: 20px;
+
+}
+.botao-login{
+    font-family: 'Inter', 'sans-serif';
+    padding: 5px;
+    background: #00A7E1 ;
+}
+.botao-cadastre-se{
+    font-family: 'Inter', 'sans-serif';
+    padding: 5px;
+    background: #000000;
+    color: #00A7E1;
+
+}
+
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.primeiro-conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 1434px;
+    height: 583px;
+    margin-top: 70px;
+    margin-left: 243px;
+    margin-right: 243px;
+    background-color: #00A7E1;
+    gap: 40px;
+
+}
+.primeiro-conteudo-esquerda{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 310px;
+    margin-top: 95px;
+    gap: 30px;
+    background-color: #90E0EF;
+    box-shadow: 4px 4px 20px 5px rgba(0, 0, 0, 0.25);
+    width: 580px;
+    height: 174px;
+    padding: 15px;
+}
+.primeiro-conteudo-esquerda > h2{
+    font-size: 30px;
+}
+.segundo-conteudo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 60px;
+    
+}
+.titulo-segundo-conteudo{
+    display: flex;
+    margin-left: 263px;
+    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+
+}
+.subtitulo-segundo-conteudo{
+    margin-left: 290px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+.descricao-cursos{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: 355px;
+    margin-top: 20px;
+    gap: 10px;
+    width: 1474px;
+    height: 450px;
+    border: solid black 1.5px;
+    padding: 25px;
+}
+.titulo-descricao{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+.descricao-cursos > p{
+    margin-right: 203px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #1E1A1A;
+}
+.descricao-cursos > button{
+    width: 164px;
+    height: 63px;
+    border-radius: 10px;
+    background: #FEF63F;
+    border: 1.3px solid #000000;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 25px;
+    color: #0F0F0F;
+    margin-top: 15px;
+
+}
+.rodape-segundo-conteudo{
+    width: 1920px;
+    height: 222px;
+    display: flex;
+    margin-top: 110px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1EEEDD;
+    gap: 55px;
+}
+.propaganda1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.propaganda1 > img{
+    background-color: #FFFFFF;
+    border-radius: 60%;
+    padding: 20px;
+}
+.propaganda2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.propaganda2 > img{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 17px;
+    
+}
+.propaganda3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.propaganda3 > img{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 17px;
+    
+}
+.terceiro-conteudo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 110px;
+}
+.titulo-terceiro-conteudo{
+    margin-left: 137px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+}
+.categorias{
+    font-family: 'Inter','sans-serif';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 59px;
+}
+.categoria1{
+    display: flex;
+    align-items: center;
+    background-color: #F6F930;
+    padding: 50px;
+    gap: 50px;
+}
+.rodape{
+    border-top:5px solid black ;
+    background:#1B1B22;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.links{
+    margin-left: 10px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.titulo-rodape{
+    color: #fff;
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.copyright-logo{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+.wave-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.links-rodape1{
+    font-family: 'Inter', 'sans-serif';
+    margin-top: 70px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.links-rodape{
+    font-family: 'Inter', 'sans-serif';
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.links-rodape4{
+    font-family: 'Inter', 'sans-serif';
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
