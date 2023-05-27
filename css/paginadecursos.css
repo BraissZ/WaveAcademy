@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: #FFFFFF;
+}
+.cabecalho{
+    font-family: 'Inter', 'sans-serif';
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 5px solid #000000;
+}
+.cabecalho-logo{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.titulo-logo{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 48px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.barra-pesquisa{
+    
+    width: 505px;
+    height: 46px;
+    background: #00A7E1;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+}
+.search-icon{
+    width: 28px;
+    height: 28px;
+    padding: 2px;
+}
+.search-text{
+    color: #FFFFFF;
+    background: none;
+    border: 0;
+    outline: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    
+}
+.botoes{
+    display: flex;
+    gap: 20px;
+
+}
+.botao-login{
+    font-family: 'Inter', 'sans-serif';
+    padding: 5px;
+    background: #00A7E1 ;
+}
+.botao-cadastre-se{
+    font-family: 'Inter', 'sans-serif';
+    padding: 5px;
+    background: #000000;
+    color: #00A7E1;
+
+}
+.container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	padding: 20px;
+    justify-items: center;
+}
+
+.container-detalhe {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+	padding: 20px;
+    justify-items: center;
+}
+
+
+
+.card {
+	background-color: #f8f8f8;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	min-height: 300px;
+	min-width: 400px;
+    max-width: 70%;
+	padding: 20px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card img {
+	max-width: 100%;
+	height: auto;
+    border-radius: 50%;
+    border:5px solid #3399ff;
+    margin:10px;
+}
+
+.card h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.card p {
+	font-size: 18px;
+	margin-bottom: 10px;
+    text-align: justify;
+}
+
+.card span {
+	font-size: 16px;
+	color: #666;
+}
+.link {
+	background-color: #4ae6b5;
+	color: #ffffff;
+	border: none;
+	padding: 10px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+    border-radius: 5px;
+    display:inline-block;
+    text-decoration:none;
+    margin:20px 0;
+}
+.rodape{
+    border-top:5px solid black ;
+    background:#1B1B22;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.links{
+    margin-left: 10px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.titulo-rodape{
+    color: #fff;
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.copyright-logo{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+.wave-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.links-rodape1{
+    font-family: 'Inter', 'sans-serif';
+    margin-top: 70px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.links-rodape{
+    font-family: 'Inter', 'sans-serif';
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.links-rodape4{
+    font-family: 'Inter', 'sans-serif';
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+
+
+
+
